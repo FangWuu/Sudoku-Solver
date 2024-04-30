@@ -1,0 +1,4 @@
+# Script to compile and run sudoku program
+
+gcc sudoku.c -o sudoku -pthread -lm
+./sudoku puzzle9-valid.txt
